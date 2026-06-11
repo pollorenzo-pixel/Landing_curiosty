@@ -27,7 +27,7 @@ export function WaitlistForm({ source = "landing" }: { source?: string }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mx-auto mt-8 flex w-full max-w-xl flex-col gap-3 sm:flex-row"
+      className="mx-auto mt-7 flex w-full max-w-xl flex-col gap-3 rounded-[1.75rem] border border-white/[0.08] bg-white/[0.025] p-2.5 sm:mt-8 sm:flex-row sm:rounded-none sm:border-0 sm:bg-transparent sm:p-0"
       aria-label="Join the VEXIS waitlist"
     >
       <div className="flex-1">
@@ -40,10 +40,10 @@ export function WaitlistForm({ source = "landing" }: { source?: string }) {
           aria-label="Email address"
         />
         {state === "invalid" ? (
-          <p className="mt-3 text-xs text-red-200/80">Enter a valid email address.</p>
+          <p className="mt-3 px-3 text-left text-xs text-red-200/80 sm:px-0">Enter a valid email address.</p>
         ) : null}
         {state === "not_configured" ? (
-          <p className="mt-3 text-xs leading-5 text-white/45">
+          <p className="mt-3 px-3 text-left text-xs leading-5 text-white/45 sm:px-0">
             This preview validates the email. Live waitlist storage will be connected before launch.
             {preparedAt ? ` Prepared at ${preparedAt}.` : null}
           </p>
