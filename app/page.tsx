@@ -6,15 +6,15 @@ import { WaitlistForm } from "@/components/WaitlistForm";
 const framework = [
   {
     title: "Awareness",
-    lines: ["Notice what is happening.", "Stay with pressure.", "Return before reacting."],
+    lines: ["Train attention deliberately.", "Regulate before reacting.", "Remain present under pressure."],
   },
   {
     title: "Intuition",
-    lines: ["Sense the signal.", "Read the pattern.", "Trust what becomes clear."],
+    lines: ["Refine pattern recognition.", "Recognize meaningful signals", "Read beneath the noise."],
   },
   {
     title: "Execution",
-    lines: ["Move with focus.", "Decide under weight.", "Perform without losing yourself."],
+    lines: ["Move with controlled intent.", "Adapt under uncertainty.", "Perform with clarity intact."],
   },
 ];
 
