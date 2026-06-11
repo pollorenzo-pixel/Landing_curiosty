@@ -5,62 +5,62 @@ import { WaitlistForm } from "@/components/WaitlistForm";
 const chapters = [
   {
     eyebrow: "02",
-    heading: "The modern world is optimized to capture attention, not strengthen it.",
+    heading: "The modern world is designed to take attention, not strengthen it.",
     body: [
-      "Every day, people move through constant stimulation, algorithmic distraction, emotional overload, and fractured focus.",
-      "The result is not only tiredness.",
-      "It is reduced awareness. Reduced signal detection. Reduced emotional control. Reduced execution under pressure.",
+      "People move through constant stimulation, fractured focus, and pressure that rarely announces itself clearly.",
+      "The cost is not only fatigue.",
+      "It is the slow loss of awareness. Less signal. Less regulation. Less choice in the moment that matters.",
     ],
   },
   {
     eyebrow: "03",
     heading: "The strongest advantage is often internal.",
     body: [
-      "The people who perform best under pressure are often the people who can remain aware within it.",
-      "They can regulate before reacting. They can detect signal from noise. They can execute intentionally when it matters.",
+      "The best performers are not untouched by pressure.",
+      "They notice sooner. They regulate before reaction takes over. They recognize what matters while others are still sorting noise.",
     ],
   },
   {
     eyebrow: "05",
     heading: "Foundation: Awareness & Stability",
     body: [
-      "Before performance becomes consistent, awareness must become stable.",
-      "Foundation training develops attention control, emotional regulation, and present awareness.",
-      "It is not passive relaxation. It is the base layer of mental performance.",
+      "Before performance becomes consistent, awareness has to become available.",
+      "Foundation training begins with attention, emotional regulation, and the ability to return.",
+      "Not escape. Not passive calm. A steadier base beneath action.",
     ],
   },
   {
     eyebrow: "06",
     heading: "Intuition: Signal Detection & Perception",
     body: [
-      "Modern humans consume more information, but often notice less.",
-      "Intuition training develops the ability to recognize meaningful signals before they become obvious.",
+      "Modern life gives people more information than they can meaningfully absorb.",
+      "Intuition is the ability to notice what matters before it becomes obvious.",
     ],
   },
   {
     eyebrow: "07",
     heading: "Flow: Execution & Performance",
     body: [
-      "Execution is not only physical.",
-      "It is cognitive, emotional, and behavioral.",
-      "Flow training develops clarity under pressure and intentional action during uncertainty.",
+      "Execution is never only physical.",
+      "It is attention under load. Emotion under pressure. Behavior when the room gets loud.",
+      "Flow training is the practice of acting clearly without disconnecting from the moment.",
     ],
   },
 ];
 
 const framework = [
-  ["Awareness", "Can I become aware of what is happening?"],
-  ["Intuition", "Can I recognize meaningful signals?"],
-  ["Execution", "Can I act effectively when it matters?"],
+  ["Awareness", "Can I notice what is happening before it owns me?"],
+  ["Intuition", "Can I recognize the signal inside the noise?"],
+  ["Execution", "Can I move well when it matters?"],
 ];
 
 const signals = [
-  "session consistency",
+  "practice rhythm",
   "completion patterns",
-  "skipped practices",
-  "reflection signals",
-  "time patterns",
-  "pressure behavior",
+  "missed sessions",
+  "reflection cues",
+  "time-of-day behavior",
+  "pressure responses",
 ];
 
 export default function WhitepaperPage() {
@@ -73,9 +73,12 @@ export default function WhitepaperPage() {
           <p className="mb-6 text-xs uppercase tracking-[0.34em] text-white/45">
             A Mental Performance Thesis by VEXIS
           </p>
-          <h1 className="max-w-6xl text-balance text-5xl font-medium leading-[0.92] tracking-[-0.065em] sm:text-7xl lg:text-9xl">
-            Building The Mind Behind Performance
+          <h1 className="max-w-6xl text-balance text-5xl font-medium leading-[0.94] tracking-[-0.065em] sm:text-7xl lg:text-9xl">
+            Building the Mind Behind Performance
           </h1>
+          <p className="mt-8 max-w-2xl text-xl leading-8 text-white/58 sm:text-2xl sm:leading-9">
+            A manifesto for awareness, intuition, and execution in a world that keeps getting louder.
+          </p>
         </Reveal>
       </section>
 
@@ -83,17 +86,17 @@ export default function WhitepaperPage() {
         <Chapter key={chapter.eyebrow} {...chapter} />
       ))}
 
-      <section className="px-5 py-28 sm:px-8 sm:py-36">
+      <section className="px-5 py-28 sm:px-8 sm:py-40">
         <Reveal className="mx-auto max-w-7xl">
           <p className="mb-8 text-xs uppercase tracking-[0.28em] text-white/35">04 / Core framework</p>
           <h2 className="text-balance text-4xl font-medium tracking-[-0.05em] sm:text-6xl">
             Awareness → Intuition → Execution
           </h2>
-          <div className="mt-12 grid gap-4 md:grid-cols-3">
+          <div className="mt-14 grid gap-4 md:grid-cols-3">
             {framework.map(([title, body]) => (
-              <article key={title} className="cinematic-border rounded-[2rem] p-8">
+              <article key={title} className="cinematic-border min-h-64 rounded-[2rem] p-8 sm:p-9">
                 <h3 className="text-2xl font-medium tracking-[-0.03em]">{title}</h3>
-                <p className="mt-6 text-lg leading-8 text-white/58">{body}</p>
+                <p className="mt-7 text-lg leading-8 text-white/58">{body}</p>
               </article>
             ))}
           </div>
@@ -104,44 +107,42 @@ export default function WhitepaperPage() {
         <Chapter key={chapter.eyebrow} {...chapter} />
       ))}
 
-      <section className="px-5 py-28 sm:px-8 sm:py-36">
+      <section className="border-t border-white/[0.06] px-5 py-28 sm:px-8 sm:py-40">
         <Reveal className="mx-auto max-w-7xl">
           <p className="mb-8 text-xs uppercase tracking-[0.28em] text-white/35">08 / Future of training</p>
           <h2 className="max-w-4xl text-balance text-4xl font-medium tracking-[-0.05em] sm:text-6xl">
-            The future of mental training is adaptive.
+            Training will become more personal.
           </h2>
-          <div className="my-12 overflow-hidden rounded-full border border-white/10 bg-white/[0.04] px-5 py-4 text-center text-xs uppercase tracking-[0.2em] text-white/60 sm:text-sm">
-            Observe → Model → Detect → Adapt → Generate
+          <div className="my-12 overflow-hidden rounded-full border border-white/10 bg-white/[0.04] px-5 py-4 text-center text-[0.68rem] uppercase tracking-[0.18em] text-white/60 sm:text-sm sm:tracking-[0.2em]">
+            Notice → Understand → Adapt → Practice → Refine
           </div>
           <div className="max-w-3xl space-y-6 text-xl leading-9 text-white/62 sm:text-2xl sm:leading-10">
             <p>Static training is only the beginning.</p>
             <p>
-              The next evolution is behavioral intelligence systems that adapt training to
-              how the individual actually functions.
+              Over time, training may become increasingly adaptive to the individual behind
+              the practice.
             </p>
           </div>
         </Reveal>
       </section>
 
-      <section className="px-5 py-28 sm:px-8 sm:py-36">
-        <Reveal className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_0.85fr]">
+      <section className="px-5 py-28 sm:px-8 sm:py-40">
+        <Reveal className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_0.85fr] lg:items-start">
           <div>
             <p className="mb-8 text-xs uppercase tracking-[0.28em] text-white/35">09 / SignAI</p>
             <h2 className="text-balance text-4xl font-medium tracking-[-0.05em] sm:text-6xl">
-              SignAI: Behavioral Intelligence for Mental Performance
+              SignAI: intelligence for the person behind the practice.
             </h2>
-            <div className="mt-10 space-y-6 text-xl leading-9 text-white/62 sm:text-2xl sm:leading-10">
-              <p>SignAI is the future intelligence layer of VEXIS.</p>
-              <p>Its goal is not to define who the user is.</p>
-              <p>Its goal is to understand how the user functions.</p>
-              <p className="text-base leading-7 text-white/45">
-                SignAI is framed as roadmap direction, not as an implemented production system.
-              </p>
+            <div className="mt-10 max-w-3xl space-y-6 text-xl leading-9 text-white/62 sm:text-2xl sm:leading-10">
+              <p>SignAI points toward a more observant form of training.</p>
+              <p>Not a system that defines the user.</p>
+              <p>A system that learns the shape of their practice: rhythm, resistance, pressure, return.</p>
+              <p>So the work can meet the person more precisely over time.</p>
             </div>
           </div>
-          <div className="cinematic-border rounded-[2rem] p-8">
+          <div className="cinematic-border rounded-[2rem] p-8 sm:p-9">
             <p className="mb-8 text-sm uppercase tracking-[0.24em] text-white/35">
-              Future behavioral signals may include
+              Future signals may include
             </p>
             <ul className="space-y-4 text-lg text-white/66">
               {signals.map((signal) => (
@@ -162,12 +163,12 @@ export default function WhitepaperPage() {
             Mental performance is becoming trainable.
           </h2>
           <div className="mx-auto mt-10 max-w-3xl space-y-7 text-xl leading-9 text-white/62 sm:text-2xl sm:leading-10">
-            <p>The future advantage is not information alone.</p>
+            <p>The future advantage is not more information.</p>
             <p>
-              It is the ability to observe clearly, regulate emotion, recognize meaningful
-              signals, and execute intentionally under pressure.
+              It is the ability to observe clearly, regulate sooner, read meaningful signals,
+              and act with intention under pressure.
             </p>
-            <p>VEXIS exists to help build the mind behind performance.</p>
+            <p>VEXIS exists to build the mind behind performance.</p>
           </div>
           <WaitlistForm source="whitepaper-closing" />
         </Reveal>
@@ -187,7 +188,7 @@ function Chapter({
   body: string[];
 }) {
   return (
-    <section className="border-t border-white/[0.07] px-5 py-28 sm:px-8 sm:py-36">
+    <section className="border-t border-white/[0.06] px-5 py-28 sm:px-8 sm:py-40">
       <Reveal className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.32fr_1fr]">
         <p className="text-xs uppercase tracking-[0.28em] text-white/35">{eyebrow}</p>
         <div>
