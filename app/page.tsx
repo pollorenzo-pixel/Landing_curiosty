@@ -85,7 +85,11 @@ export default function Home() {
               The internal sequence
             </p>
             <h2 className="max-w-[18rem] text-balance text-[2rem] font-medium leading-[0.98] tracking-[-0.06em] sm:max-w-none sm:text-6xl sm:leading-none sm:tracking-[-0.05em]">
-              Awareness → Intuition → Execution
+              Awareness 
+                 ⬇️
+              Intuition 
+                 ⬇️
+              Execution
             </h2>
           </Reveal>
           <div className="mt-10 grid gap-3.5 sm:mt-14 sm:gap-4 md:grid-cols-3">
