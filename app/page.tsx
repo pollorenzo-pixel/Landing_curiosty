@@ -84,7 +84,7 @@ export default function Home() {
             <p className="mb-5 text-[0.68rem] uppercase tracking-[0.24em] text-white/35 sm:mb-6 sm:text-xs sm:tracking-[0.28em]">
               The internal sequence
             </p>
-            <h2 className="max-w-[21rem] text-balance text-[2.35rem] font-medium leading-[1.02] tracking-[-0.055em] sm:max-w-none sm:text-6xl sm:leading-none sm:tracking-[-0.05em]">
+            <h2 className="max-w-[18rem] text-balance text-[2rem] font-medium leading-[0.98] tracking-[-0.06em] sm:max-w-none sm:text-6xl sm:leading-none sm:tracking-[-0.05em]">
               Awareness → Intuition → Execution
             </h2>
           </Reveal>
