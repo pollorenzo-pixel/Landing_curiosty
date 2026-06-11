@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VEXIS — Building The Mind Behind Performance",
+  title: "VEXIS — Building the Mind Behind Performance",
   description:
-    "A cinematic mental performance thesis for awareness, intuition, and execution.",
+    "A mental performance thesis for awareness, intuition, and execution under pressure.",
   openGraph: {
-    title: "VEXIS — Building The Mind Behind Performance",
+    title: "VEXIS — Building the Mind Behind Performance",
     description:
-      "Mental performance is becoming essential infrastructure.",
+      "Attention is becoming the rarest human resource.",
     type: "website",
   },
 };

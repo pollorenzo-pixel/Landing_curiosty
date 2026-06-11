@@ -44,7 +44,7 @@ export function WaitlistForm({ source = "landing" }: { source?: string }) {
         ) : null}
         {state === "not_configured" ? (
           <p className="mt-3 text-xs leading-5 text-white/45">
-            Waitlist capture is prepared for future Supabase storage but is not connected yet.
+            This preview validates the email. Live waitlist storage will be connected before launch.
             {preparedAt ? ` Prepared at ${preparedAt}.` : null}
           </p>
         ) : null}

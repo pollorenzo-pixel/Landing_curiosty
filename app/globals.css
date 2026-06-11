@@ -19,6 +19,7 @@ html {
 
 body {
   min-height: 100vh;
+  overflow-x: hidden;
   margin: 0;
   background:
     radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.09), transparent 32rem),
@@ -27,6 +28,11 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   text-rendering: geometricPrecision;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+main > section {
+  scroll-margin-top: 4rem;
 }
 
 body::before {
@@ -69,6 +75,9 @@ body::before {
 
 .cinematic-border {
   border: 1px solid var(--hairline);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.025));
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.024)),
+    rgba(255, 255, 255, 0.018);
   box-shadow: 0 24px 90px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(18px);
 }
